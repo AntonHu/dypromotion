@@ -2,7 +2,7 @@
 
 ## **模型简介**
 
-本模型是基于 **DeepSeek-R1-Distill-Llama-8B** 的微调版本，专门用于生成短视频带货文案以及分析用户反馈。通过自定义数据集 **AntonCook/dypromotion** 进行微调，模型在短视频营销场景中表现略佳，能够帮助用户快速生成吸引人的内容并提升转化率。
+[dypromotion](https://huggingface.co/AntonCook/dypromotion)模型是基于 **DeepSeek-R1-Distill-Llama-8B** 的微调版本，专门用于生成短视频带货文案以及分析用户反馈。通过自定义数据集 **AntonCook/dypromotion** 进行微调，模型在短视频营销场景中表现略佳，能够帮助用户快速生成吸引人的内容并提升转化率。
 
 * * *
 
