@@ -1,8 +1,6 @@
 name: Sync Hugging Face to GitHub
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # 每天同步一次
   workflow_dispatch: # 支持手动触发
 
 jobs:
@@ -15,7 +13,7 @@ jobs:
       - name: Download Hugging Face repository
         run: |
           pip install huggingface_hub
-          huggingface-cli download your-username/your-repo --local-dir ./your-repo
+          huggingface-cli download AntonCook/dypromotion --local-dir ./dypromotion
 
       - name: Commit and push changes
         run: |
